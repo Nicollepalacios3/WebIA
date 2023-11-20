@@ -1,0 +1,152 @@
+
+  
+  nav {
+    background-color: #0d6efd;
+    text-align: center;
+  }
+  hr {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #444;
+  }
+ 
+  .notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .card-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 5px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .form-control {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+
+.move{
+    margin-top: 3%;  
+}
+.move1{
+    text-align: center;
+    margin-top: 2% 
+
+}
+  
+nav {
+    background-color: #0d6efd;
+    text-align: center;
+  }
+  hr {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #444;
+  }
+  .move3{
+    margin-top: 3%;
+  }
+  
+.miElemento {
+
+  
+}
+  

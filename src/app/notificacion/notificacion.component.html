@@ -1,0 +1,38 @@
+<app-menu></app-menu>
+<div class="move3">
+    <nav>
+        <ul>
+          <li><a href="admin">Inicio</a></li>
+          <li><a href="notificacion">Notificacion</a></li>
+          <li><a href="prediccion">Prediccion</a></li>
+          <li><a href="reporte">Reporte</a></li>
+          <li><a href="redneuronal">Red neuronal</a></li>
+        </ul>
+      </nav>
+    </div>
+
+<div class="move1">
+<h2>Notificación</h2>
+</div>
+<div class="move">
+<div class="notification" *ngFor="let contacto of contactos; let i = index" class="notification">
+  <div class="card">
+    <div class="card-header">
+      <h5 class="card-title">{{ contacto.name }}</h5>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Mensaje: {{ contacto.message }}</p>
+      <p class="card-text">Email: {{ contacto.email }}</p>
+    </div>
+    <div class="card-footer">
+      <input type="text" class="form-control" placeholder="Responder mensaje" [(ngModel)]="responder[i]" />
+      <button (click)="deleteNotification(contacto.id, i, contacto.email)">Enviar</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="miElemento">
+  <app-pie></app-pie>
+  </div>

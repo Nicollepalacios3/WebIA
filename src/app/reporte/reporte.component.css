@@ -1,0 +1,82 @@
+nav {
+    background-color: #0d6efd;
+    text-align: center;
+  }
+  hr {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #444;
+  }
+  .move{
+    margin-top: 3%;
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -150px;
+}
+.btn:hover {
+    background-color: #3e8e41;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .move{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 4%
+    
+  }
+  .move1{
+    margin-top: 3%;
+  }
+    
+  .divider {
+    border-top: 1px solid black;
+    margin: 10px 0;
+  }
+  
+  .miElemento {
+  
+    
+  }
+    

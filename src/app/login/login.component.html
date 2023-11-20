@@ -1,0 +1,32 @@
+<app-menu></app-menu>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<div class="move">
+    <div class="simple-login-container">
+        <h2>Login</h2>
+        <form (ngSubmit)="login()">
+        <div class="row">
+            
+                <div class="col-md-12 form-group">
+                    <input type="text" [(ngModel)]="username" class="form-control input-lg" name="username" placeholder="Usuario">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña" class="form-control input-lg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <input type="submit" class="btn btn-block btn-lg btn-login" value="Enviar">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<app-pie></app-pie>
+  

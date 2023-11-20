@@ -1,0 +1,30 @@
+<app-menu></app-menu>
+<div class="move">
+    <nav>
+        <ul>
+          <li><a href="admin">Inicio</a></li>
+          <li><a href="notificacion">Notificacion</a></li>
+          <li><a href="prediccion">Prediccion</a></li>
+          <li><a href="reporte">Reporte</a></li>
+          <li><a href="redneuronal">Red neuronal</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+<div class="container text-center">
+    <h2 class="display-4 mt-5 mb-3">Convertidor de celcius a fahrenheit</h2>
+    <form (ngSubmit)="dato()">
+      <div class="form-group row">
+        <label for="Id" class="col-md-3 col-form-label text-md-right">Digite el numero</label>
+        <div class="col-md-9">
+          <input type="text" [(ngModel)]="mensaje" class="form-control"  id="mensaje" name="mensaje">
+        </div>
+      </div>
+    
+   
+    <button type="submit" class="btn btn-primary mx-auto mt-3 ml-5">Enviar</button>
+    </form>
+</div>
+<div class="miElemento">
+  <app-pie></app-pie>
+  </div>
